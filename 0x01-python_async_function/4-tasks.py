@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+""" measure the run time"""
 import asyncio
 import time
 import random
@@ -13,9 +13,9 @@ async def task_wait_n(n: int = 0, max_delay: int = 10) -> List[float]:
     """
     Args:
     n and max_delays
+
     Returns Total_time/n
     """
-    
     delays: List[float] = []
     tasks: List = []
 
